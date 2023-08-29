@@ -1,0 +1,55 @@
+/* MAIN TAG STYLES */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: 'Miller Text', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px; /* reduces margin */
+}
+
+
+/* CONTAINER STYLES */
+.content-container {
+    width: 11in;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.text-content {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: medium;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAVIGATION BAR STYLES */
+.navbar {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    align-items: center; /* vertically center items in the navbar */
+    border-bottom: 1px solid black;
+}
+
+
+/* BUTTON STYLES */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px
+}
+.navbar-button {
+    text-align: center;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
