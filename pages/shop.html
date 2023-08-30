@@ -30,7 +30,7 @@
 
     <h1>SHOP</h1>
 
-    <div class="text-content">
+    <div class="text">
         <p>
             This is where you sell actual items.
             <br><br>
@@ -40,6 +40,28 @@
             (or pages for each item? Idk).
         </p>
     </div>
+
+
+    <!-- PRODUCT -->
+    <p class="text" style="text-align: center; padding-top: 50px"><b>Sample Chair</b></p>
+    <img src="../photos/products/SAMPLECHAIR.jpeg" style="max-width: 20%; padding-bottom: 15px;">
+    <!-- PAYPAL PURCHASE BUTTON -->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <!-- Identify your business so that you can collect the payments. -->
+        <input type="hidden" name="business" value="aldenhinden@gmail.com">
+        <!-- Specify a Buy Now button. -->
+        <input type="hidden" name="cmd" value="_xclick">
+        <!-- Specify details about the item that buyers will purchase. -->
+        <input type="hidden" name="item_name" value="Wooden Chair">
+        <input type="hidden" name="amount" value="69.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <!-- Prompt buyers to enter the quantities they want. -->
+        <input type="hidden" name="undefined_quantity" value="1">
+        <!-- Display the payment button. -->
+        <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="Buy Now">
+        <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+    </form>
+
 </div>
 
 </body>

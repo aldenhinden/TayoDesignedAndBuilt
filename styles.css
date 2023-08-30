@@ -20,12 +20,10 @@ h1 {
     text-align: center;
     align-items: center;
 }
-.text-content {
+.text {
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: medium;
     text-align: left;
-    display: flex;
-    flex-direction: column;
 }
 
 /* NAVIGATION BAR STYLES */
